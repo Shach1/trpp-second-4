@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"ru.mirea.trpp4","l":"Application"},{"p":"ru.mirea.trpp4.controllers","l":"EmployeeController"},{"p":"ru.mirea.trpp4.controllers","l":"HealthController"},{"p":"ru.mirea.trpp4.entity","l":"HealthResponse"},{"p":"ru.mirea.trpp4.entity","l":"Organization"}];updateSearchResults();
