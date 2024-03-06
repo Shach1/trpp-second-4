@@ -1,14 +1,14 @@
-package ru.mirea.trpp_second_4.controllers;
+package ru.mirea.trpp4.controllers;
 
 import com.opencsv.bean.CsvToBeanBuilder;
 import io.micronaut.http.HttpResponse;
 import io.micronaut.http.annotation.Controller;
 import io.micronaut.http.annotation.Get;
+import ru.mirea.trpp4.entity.Organization;
 
 import java.io.InputStreamReader;
 import java.util.List;
 import java.util.Optional;
-import java.util.Arrays;
 
 /** Контроллер для работы с организациями. */
 @Controller("/organization")
@@ -19,7 +19,9 @@ public class EmployeeController {
 
     /** Конструктор. */
     public EmployeeController() {
-        organizationList = new CsvToBeanBuilder<Organization>(new InputStreamReader(this.getClass().getResourceAsStream("/MOCK_DATA.csv"))).withType(Organization.class).build().parse();
+        organizationList = new CsvToBeanBuilder<Organization>(
+                new InputStreamReader(this.getClass().getResourceAsStream("/MOCK_DATA.csv"))
+                ).withType(Organization.class).build().parse();
     }
 
     /**

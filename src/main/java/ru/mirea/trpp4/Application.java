@@ -1,4 +1,4 @@
-package ru.mirea.trpp_second_4;
+package ru.mirea.trpp4;
 
 import io.micronaut.runtime.Micronaut;
 
