@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"ru.mirea.trpp4"},{"l":"ru.mirea.trpp4.controllers"},{"l":"ru.mirea.trpp4.entity"}];updateSearchResults();
